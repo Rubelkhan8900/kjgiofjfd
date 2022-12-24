@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style: none;
+
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* =============== Menu Start============== */
+.row_Logo{
+    width: 30%;
+    float: left;
+}
+
+.text_menu{
+    width: 70%;
+    float: left;
+}
+
+.row_Logo .col_logo{
+    width: 130px;
+    line-height: 100px;
+
+}
+.text_menu .menu ul{
+ float: left;
+ margin: 0 auto;
+
+
+}
+.text_menu .menu ul li{
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.text_menu .menu ul li a{
+    line-height: 100px;
+    padding-right: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400; 
+    font-family: 'Oswald', sans-serif;
+
+}
+.col_sarch{
+    width: 20%;
+    float: right;
+}
+.text_menu .icon_s{
+ float: right;
+ line-height: 100px;
+ color: #ffffff;
+ font-weight: 900;
+ font-size: 30px;
+ height: 30px;
+ cursor: pointer;
+ 
+}
+#main_menu{
+    height: 100px;
+    background-color: #303030;
+}
+/* =============== Menu end============== */
+
+/* =============== benner start============== */
+#benner{
+    background: url(../img/benner3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 670px;
+}
+.img_text h1{
+    font-size: 125px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 180px;
+
+}
+.img_text p{
+    width: 610px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+
+}
+.Register {
+    width: 320px;
+    height: 65px;
+    background-color: #e8631c;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 4%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Register h2{
+    font-size: 29px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+/* =============== benner end============== */
+/* =============== dance start============== */
+#dance{
+    padding-bottom: 80px;
+    height: 960px;
+    background-color: #e8631c;
+    
+}
+.row_dance h2{
+    padding-top: 100px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#p_row{
+    padding-top: 80px;
+}
+.row_dance p{
+    width: 840px;
+
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.dance_img ul{
+   display: flex;
+}
+.dance_img ul li{
+    width: 360px;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+.dance_img ul li img{
+    width: 370px;
+    background-color: #303030;
+}
+
+.dance_back{
+    margin-right: 60px;
+    float: left;
+    margin-top: 0;
+    width: 353.4px;
+    height: 170px;
+    background-color: #303030;
+}
+.dance_back h3 {
+    padding-top: 20px;
+    font-size: 37px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dance_back p{
+    padding-top: 20px;
+    width: 320px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.dance_back:nth-child(5){
+    margin-right: 0px;
+}
+/* =============== dance end============== */
+/* =============== pricing start============== */
+#pricing{
+    padding-bottom: 80px;
+    height: 960px;
+    background-color: #2f2f2f;
+}
+.text_peicing h2{
+    padding-top: 100px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.text_peicing p{
+    padding-top: 20px;
+    width: 840px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.row_plan .col_basic{
+    width: 375px;
+    height: 495px;
+    background-color: #e8631c;
+    border-radius: 2%;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.col_basic img{
+    width: 95px;
+    padding-left: 135px;
+    padding-top: 60px;
+
+    
+}
+.col_basic h3{
+    padding-top: 55px;
+    font-size: 37px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.col_basic p{
+   padding-top: 35px;
+    width: 315px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.row_plan{
+    display: flex;
+}
+.col_basic .sub_bottom{
+    cursor: pointer;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+    margin: 25px 25px;
+    border-radius: 4px;
+
+}
+.sub_bottom h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    line-height: 65px;
+    text-align: center;
+
+}
+/* =============== pricing end============== */
+/* =============== Amazing start============== */
+#Amazing{
+    height: 1920px ;
+    width: 1440px;
+    padding-bottom: 0;
+
+
+}
+.ama_row{
+    display: flex;
+    height: 954px;
+
+}
+.ama_img img{
+    float: left;
+    height: 954px;
+    width: 720px;
+    float: left;
+}
+.ama_text{
+    background-color: #e8631c;
+    width: 720px;
+    float: left;
+}
+.ama_text h2{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+
+}
+.ama_bottom{
+    margin-left: 80px;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+}
+.ama_text h2{
+    margin-top: 320px;
+    padding-left: 80px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.ama_text p{
+    margin-top: 55px;
+    width: 540px;
+    padding-left: 80px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.ama_bottom h3{
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 65px;
+}
+.ama_img_2 img{
+    width: 50%;
+    float: right;
+    height: 965px;
+}
+.ama_row_2 .ama_text_2{
+    width: 50%;
+    float: left;
+    height: 965px;
+    background-color: #e8631c;
+}
+
+.ama_text_2 h2{
+    margin-top: 320px;
+    padding-left: 80px;
+    width: 720px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.ama_text_2 p{
+    margin-top: 55px;
+    width: 540px;
+    padding-left: 80px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.ama_bottom_2{
+    margin-left: 80px;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+
+}
+.ama_bottom_2 h3{
+    cursor: pointer;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 65px;
+}
+.ama_row_2{
+    height: 1920px ;
+}
+
+/* =============== Amazing end============== */
+/* =============== our end============== */
+#ous_ss{
+    margin-top: 0;
+    height: 975px;
+    background-color: #2f2f2f;
+}
+.row_cat{
+    display: flex;
+}
+.col_cat_a{
+    margin: 0 auto;
+    text-align: center;
+}
+.col_cat_a h3{
+    padding-right: -18px;
+    padding-top: 185px;
+    font-size: 67px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.col_cat_a p{
+
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+/* =============== our end============== */
+/* =============== Simon start============== */
+.siom_img{
+    background-image: url(../img/Herbert\ Simon.jpg);
+    height: 967px;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.overlay{
+    background-color: rgba(53, 23, 6, 0.589);
+    height: 967px;
+    z-index: 1;
+}
+/* =============== Simon end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
